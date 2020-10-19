@@ -11,7 +11,7 @@ La banda en sexto lugar es: [NOMBRE_DE_LA_QUINTA_BANDA]
 
 2) 
 
-- Crear un array con el nombre **notas** y asignar un array con 10 valores numéricos de 1 a 10.  
+- Crear un array con el nombre **notas** y asignarle 10 valores numéricos de 1 a 10.  
 - Hacer una funcion sumarNotas() que reciba el array como argumento y retorne la suma de todas. 
 - Hacer una funcion calcularPromedio() que reciba el array como argumento y retorne el promedio de notas (podes utilizar `sumarNotas()` para reutilizar codigo).  
 
@@ -31,3 +31,18 @@ const playlist = ["Concrete and Gold", "The Line", "Sunday Rain", "Happy Ever Af
   - Declarar el array **items** con los siguientes valores: '🍉', '🍐', '🍌', '🍇', '🍎', '🍊'
   - Crear la funcion obtenerFrutaAlAzar() que reciba como argumento `items` y retorne una fruta del array, usando la funcion `obtenerNumeroAlAzar`. 
   
+  
+5) 
+
+- Declara la variable listaDeFrutas como un array vacio
+- Usando la funcion obtenerFrutaAlAzar(), asigna una fruta en la posicion 0 del array listaDeFrutas
+- Hace lo mismo para las posiciones 1, 2, 3 y 4. 
+
+Al final te va a quedar un array con 5 frutas al azar. Pero el codigo esta algo repetitivo, no? Podemos mejorarlo reemplazando esa asignación con un *for*. 
+
+6) 
+
+- Declarar la variable otraListaDeFrutas como un array vacio. 
+- Hacer un for que cuente 5 numeros (desde 0 hasta 4, o desde 1 hasta 5). *(sin recorrer un array)* 
+- En cada iteracion, llamar a la funcion obtenerFrutaAlAzar y asignar la fruta al array otraListaDeFrutas.
+

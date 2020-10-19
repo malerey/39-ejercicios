@@ -25,7 +25,7 @@ const playlist = ["Concrete and Gold", "The Line", "Sunday Rain", "Happy Ever Af
   - De inicio a fin
   - De fin a inicio
   
-  4)
+4)
   
   - Crear una funcion obtenerNumeroAlAzar() que retorne un numero del 0 al 5 al azar. 
   - Declarar el array **items** con los siguientes valores: '🍉', '🍐', '🍌', '🍇', '🍎', '🍊'
